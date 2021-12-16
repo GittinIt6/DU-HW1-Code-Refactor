@@ -22,6 +22,9 @@ Root Directory
     │
     └─── images (folder)
 ```
+**CSS**
+This site uses a single CSS file "style.css"
 
-### Revisions
+
+## Revisions
 This website was refactored December 2021 as part of a bootcamp assignment. Functionality was not changed. It was refactored to use HTML5 Semantic Elements to enhance the accessibility of the site and modernize the code for future enhancements and better search engine optimization.
