@@ -68,7 +68,7 @@ nav ul li {
 }
 
 /* Main "background" image under header */
-.main-image img{
+figure img{
     margin-bottom: 25px;
     display: block;
     width: 100%;
