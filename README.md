@@ -7,7 +7,7 @@ DU Coding Bootcamp Homework 1: Code Refactor
 
 This is a website for **Horiseon Social Solution Services, Inc.**
 
-Public Address: https://gittinit6.github.io/DU-HW1-Code-Refactor/
+Public Website Address: https://gittinit6.github.io/DU-HW1-Code-Refactor/
 
 ## Purpose
 
