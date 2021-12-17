@@ -53,7 +53,6 @@ header h1 .seo {
 
 /* Setting spacing for navigation items in header with different font style and size */
 nav {
-/* .header div { */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -77,15 +76,15 @@ nav ul li {
     object-fit: cover;
 }
 
+/* setting main section to stack items vertically and leave space for aside to right */
 main {
-/* .content { */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* main content appearance and spacing */
 main section{
-/* .search-engine-optimization { */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,55 +93,19 @@ main section{
     color: #ffffff;
 }
 
-/* .online-reputation-management { */
-    /* margin-bottom: 20px; */
-    /* padding: 50px; */
-    /* height: 300px; */
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    /* background-color: #0072bb; */
-    /* color: #ffffff; */
-/* } */
-
-/* .social-media-marketing { */
-    /* margin-bottom: 20px; */
-    /* padding: 50px; */
-    /* height: 300px; */
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    /* background-color: #0072bb; */
-    /* color: #ffffff; */
-/* } */
-
+/* limit main section image height */
 main section img{
-/* .search-engine-optimization img { */
     max-height: 200px;
 }
 
-/* .online-reputation-management img { */
-    /* max-height: 200px; */
-/* } */
-
-/* .social-media-marketing img { */
-    /* max-height: 200px; */
-/* } */
-
+/* adjusting h2 spacing and font in main section */
 main section h2{
-/* .search-engine-optimization h2 { */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* .online-reputation-management h2 { */
-    /* margin-bottom: 20px; */
-    /* font-size: 36px; */
-/* } */
-
-/* .social-media-marketing h2 { */
-    /* margin-bottom: 20px; */
-    /* font-size: 36px; */
-/* } */
-
+/* setting spacing and appearance of aside, setting to the right of main, applying clear:both to ensure visual appearance of floated items within aside */
 aside{
-/* .benefits { */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -153,56 +116,24 @@ aside{
     background-color: #2589bd;
 }
 
+/* aside spacing and color */
 aside section{
-/* .benefit-lead { */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* .benefit-brand { */
-    /* margin-bottom: 32px; */
-    /* color: #ffffff; */
-/* } */
-
-/* .benefit-cost { */
-    /* margin-bottom: 32px; */
-    /* color: #ffffff; */
-/* } */
-
+/* adjusting aside h3 spacing */
 aside section h3{
-/* .benefit-lead h3 { */
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3 { */
-    /* margin-bottom: 10px; */
-    /* text-align: center; */
-/* } */
-
-/* .benefit-cost h3 { */
-    /* margin-bottom: 10px; */
-    /* text-align: center; */
-/* } */
-
+/* aside images spacing and limit width */
 aside section img{
-/* .benefit-lead img { */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-brand img { */
-    /* display: block; */
-    /* margin: 10px auto; */
-    /* max-width: 150px; */
-/* } */
-
-/* .benefit-cost img { */
-    /* display: block; */
-    /* margin: 10px auto; */
-    /* max-width: 150px; */
-/* } */
 
 footer {
     padding: 30px;
@@ -211,6 +142,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
